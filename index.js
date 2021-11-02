@@ -1,6 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-fs = require('fs');
+const fs = require('fs');
 const baseUrl='https://www.accuweather.com/';
 const mainUrl = 'https://www.accuweather.com/en/gb/london/ec4a-2/august-weather/328328';
 const getMonthList = async (url) => {
